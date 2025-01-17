@@ -3,6 +3,7 @@
     <q-header elevated>
       <q-toolbar>
         <q-toolbar-title> Food Picker </q-toolbar-title>
+        <q-btn flat @click="refreshPage" round dense icon="refresh" />
       </q-toolbar>
     </q-header>
 
@@ -12,4 +13,8 @@
   </q-layout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const refreshPage = () => {
+  location.reload() // Reloads the current page
+}
+</script>
