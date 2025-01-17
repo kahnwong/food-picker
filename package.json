@@ -2,7 +2,7 @@
   "name": "food-picker",
   "version": "0.0.1",
   "description": "Food picker",
-  "productName": "Food picker",
+  "productName": "Food Picker",
   "author": "Karn Wong <karn@karnwong.me>",
   "type": "module",
   "private": true,
