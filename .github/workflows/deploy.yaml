@@ -28,7 +28,7 @@ jobs:
       - name: Install requirements
         run: yarn install
       - name: Build
-        run: yarn build-pwa
+        run: yarn build
       # ---------- publish ----------
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
