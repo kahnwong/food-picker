@@ -1,4 +1,6 @@
 {
+  "name": "Food Picker",
+  "short_name": "Food Picker",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#027be3",
