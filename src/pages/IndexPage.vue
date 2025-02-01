@@ -9,7 +9,7 @@ import { ref } from 'vue'
 import FoodComponent from 'components/FoodComponent.vue'
 
 const menus = ref<string[]>([
-  'ข้าวอบหม้อดิน',
+  'ข้าวอบหม้อดิน (in-store pickup only)',
   'ผัดไทย (เส้นเล็ก / วุ้นเส้น)',
   'ราดหน้า',
   'สุกี้',
